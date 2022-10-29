@@ -16,3 +16,17 @@
 {"level":"info","time":"2022-10-29T21:33:18.285+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"Idea getIdeaList function called.","X-Request-Id":"b96c235d-b6ea-4c2e-9be8-b27bf60cb787"}
 {"level":"info","time":"2022-10-29T21:33:18.291+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"OK","X-Request-Id":"b96c235d-b6ea-4c2e-9be8-b27bf60cb787"}
 {"level":"info","time":"2022-10-29T21:33:18.291+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"6.759ms       | ::1          | GET /jotting | {code: 0, message: OK}"}
+{"level":"info","time":"2022-10-29T21:40:07.659+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"The router has been deployed on :8080 successfully."}
+{"level":"info","time":"2022-10-29T21:40:58.866+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"Idea getIdeaList function called.","X-Request-Id":"a09a554d-0702-4983-a440-f2f31a471699"}
+{"level":"info","time":"2022-10-29T21:41:23.610+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"The router has been deployed on :8080 successfully."}
+{"level":"info","time":"2022-10-29T21:41:28.645+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"Idea getIdeaList function called.","X-Request-Id":"0a887720-ef07-47e6-97fc-d015151bb20e"}
+{"level":"error","time":"2022-10-29T21:41:28.649+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:86","msg":"Database error","X-Request-Id":"0a887720-ef07-47e6-97fc-d015151bb20e","cause":"{\"id\":\"\",\"code\":10002,\"detail\":\"Error 1406: Data too long for column 'content' at row 1\",\"status\":\"Database error\"}","source":"/Users/wuyuxian/SMZT-backend/handler/jottings/PostJotting.go:36"}
+{"level":"info","time":"2022-10-29T21:41:28.650+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"5.186ms       | ::1          | POST /jotting | {code: 10002, message: Database error: {\"id\":\"\",\"code\":10002,\"detail\":\"Error 1406: Data too long for column 'content' at row 1\",\"status\":\"Database error\"}}"}
+{"level":"info","time":"2022-10-29T21:41:42.935+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"Idea getIdeaList function called.","X-Request-Id":"3a0a192b-fad4-45ef-b5c2-1ad8102b0fd9"}
+{"level":"info","time":"2022-10-29T21:41:42.948+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"OK","X-Request-Id":"3a0a192b-fad4-45ef-b5c2-1ad8102b0fd9"}
+{"level":"info","time":"2022-10-29T21:41:42.948+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"13.615ms      | ::1          | POST /jotting | {code: 0, message: OK}"}
+{"level":"info","time":"2022-10-29T21:42:55.525+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"Idea getIdeaList function called.","X-Request-Id":"a4ccad99-eb33-4897-b9a5-50f3a1202bc0"}
+{"level":"info","time":"2022-10-29T21:43:10.324+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"The router has been deployed on :8080 successfully."}
+{"level":"info","time":"2022-10-29T21:43:14.976+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"Idea getIdeaList function called.","X-Request-Id":"34b47e7c-933f-409b-bab2-bed1944faa88"}
+{"level":"info","time":"2022-10-29T21:43:14.980+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"OK","X-Request-Id":"34b47e7c-933f-409b-bab2-bed1944faa88"}
+{"level":"info","time":"2022-10-29T21:43:14.980+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"4.853ms       | ::1          | GET /jotting | {code: 0, message: OK}"}

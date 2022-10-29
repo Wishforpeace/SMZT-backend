@@ -28,7 +28,7 @@ func Load(g *gin.Engine, mw ...gin.HandlerFunc) *gin.Engine {
 	g.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 
 	//Jotting
-	jotting := g.Group("/jotting")
+	jotting := g.Group("api/v1/jotting")
 	{
 		jotting.GET("", jottings.GetJotting)
 		jotting.POST("", jottings.PostJotting)
