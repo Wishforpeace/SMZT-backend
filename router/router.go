@@ -2,6 +2,7 @@ package router
 
 import (
 	"SMZT/handler"
+	"SMZT/handler/jottings"
 	"SMZT/handler/sd"
 	"SMZT/pkg/errno"
 	"SMZT/router/middleware"
@@ -25,6 +26,13 @@ func Load(g *gin.Engine, mw ...gin.HandlerFunc) *gin.Engine {
 
 	// swagger API doc
 	g.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
+
+	//Jotting
+	jotting := g.Group("/jotting")
+	{
+		jotting.GET("", jottings.GetJotting)
+		jotting.POST("", jottings.PostJotting)
+	}
 
 	// The health check Fandlers
 	svcd := g.Group("/sd")

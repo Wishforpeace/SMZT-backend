@@ -24,10 +24,10 @@ var (
 	cfg = pflag.StringP("config", "c", "", "apiserver config file path.")
 )
 
-// @title MuXiFresh-be
+// @title SMZT
 // @version 1.0
 // @description The
-// @host work.test.muxi-tech.xyz
+// @host localhost:8080
 // @BasePath /api/v1
 
 // @tag.name user
@@ -37,7 +37,7 @@ func main() {
 	pflag.Parse()
 
 	// init config
-	if err := config.Init(*cfg, "fresh"); err != nil {
+	if err := config.Init(*cfg, "SMZT"); err != nil {
 		panic(err)
 	}
 

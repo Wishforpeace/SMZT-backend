@@ -1,2 +1,18 @@
 {"level":"info","time":"2022-10-29T12:09:06.829+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"The router has been deployed on :8080 successfully."}
 {"level":"info","time":"2022-10-29T12:13:18.288+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"The router has been deployed on :8080 successfully."}
+{"level":"info","time":"2022-10-29T21:25:34.469+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"The router has been deployed on :8080 successfully."}
+{"level":"info","time":"2022-10-29T21:26:46.713+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"The router has been deployed on :8080 successfully."}
+{"level":"error","time":"2022-10-29T21:27:19.414+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:86","msg":"The incorrect API route","X-Request-Id":"101a4da7-47b4-49b3-9751-6f744d4b7b7c","cause":"","source":""}
+{"level":"info","time":"2022-10-29T21:27:19.415+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"875µs         | ::1          | POST /api/v1/jotting | {code: 404, message: The incorrect API route: }"}
+{"level":"error","time":"2022-10-29T21:30:34.863+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:86","msg":"The incorrect API route","X-Request-Id":"60ab4583-8983-45ae-8f7e-07fbe168420d","cause":"","source":""}
+{"level":"info","time":"2022-10-29T21:30:34.869+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"7.945ms       | ::1          | GET /api/v1/jotting | {code: 404, message: The incorrect API route: }"}
+{"level":"info","time":"2022-10-29T21:32:18.662+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"Idea getIdeaList function called.","X-Request-Id":"ba4c32cd-00d7-4cb9-b72e-1a222e6f5311"}
+{"level":"info","time":"2022-10-29T21:32:34.124+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"Idea getIdeaList function called.","X-Request-Id":"5dba6896-0ab8-46b9-bf35-f080696ae9ff"}
+{"level":"info","time":"2022-10-29T21:32:34.193+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"OK","X-Request-Id":"5dba6896-0ab8-46b9-bf35-f080696ae9ff"}
+{"level":"info","time":"2022-10-29T21:32:34.194+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"69.916ms      | ::1          | POST /jotting | {code: 0, message: OK}"}
+{"level":"info","time":"2022-10-29T21:32:57.948+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"Idea getIdeaList function called.","X-Request-Id":"01ceff0f-3e3d-4d4b-b014-622831833bfa"}
+{"level":"info","time":"2022-10-29T21:32:58.257+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"Idea getIdeaList function called.","X-Request-Id":"7ef3bd00-09a1-4f69-9448-261b062d80ab"}
+{"level":"info","time":"2022-10-29T21:33:13.320+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"The router has been deployed on :8080 successfully."}
+{"level":"info","time":"2022-10-29T21:33:18.285+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"Idea getIdeaList function called.","X-Request-Id":"b96c235d-b6ea-4c2e-9be8-b27bf60cb787"}
+{"level":"info","time":"2022-10-29T21:33:18.291+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"OK","X-Request-Id":"b96c235d-b6ea-4c2e-9be8-b27bf60cb787"}
+{"level":"info","time":"2022-10-29T21:33:18.291+0800","caller":"/Users/wuyuxian/SMZT-backend/log/log.go:71","msg":"6.759ms       | ::1          | GET /jotting | {code: 0, message: OK}"}
