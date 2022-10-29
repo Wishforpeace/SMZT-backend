@@ -1,4 +1,4 @@
-package Jotting
+package service
 
 import (
 	"SMZT/model/jottings"

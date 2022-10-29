@@ -4,8 +4,10 @@ import (
 	"SMZT/handler"
 	"SMZT/handler/jottings"
 	"SMZT/handler/sd"
+	"SMZT/handler/user"
 	"SMZT/pkg/errno"
 	"SMZT/router/middleware"
+
 	"github.com/gin-gonic/gin"
 	swaggerFiles "github.com/swaggo/files"     // swagger embed files
 	ginSwagger "github.com/swaggo/gin-swagger" // gin-swagger middleware
@@ -33,7 +35,12 @@ func Load(g *gin.Engine, mw ...gin.HandlerFunc) *gin.Engine {
 		jotting.GET("", jottings.GetJotting)
 		jotting.POST("", jottings.PostJotting)
 	}
+	// user 模块
+	userRouter := g.Group("api/v1/user")
+	{
+		userRouter.POST("/login", user.Login)
 
+	}
 	// The health check Fandlers
 	svcd := g.Group("/sd")
 	{

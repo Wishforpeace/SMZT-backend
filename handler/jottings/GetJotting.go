@@ -5,8 +5,9 @@ import (
 	"SMZT/log"
 	_ "SMZT/model/jottings"
 	"SMZT/pkg/errno"
-	"SMZT/service/Jotting"
+	service "SMZT/service/Jotting"
 	"SMZT/util"
+
 	"github.com/gin-gonic/gin"
 
 	"go.uber.org/zap"
@@ -27,7 +28,7 @@ func GetJotting(c *gin.Context) {
 		zap.String("X-Request-Id", util.GetReqID(c)))
 	StudentID := c.MustGet("student_id").(string)
 	//StudentID := "2021214266"
-	jotting, err := Jotting.GetJotting(StudentID)
+	jotting, err := service.GetJotting(StudentID)
 	if err != nil {
 		handler.SendError(c, errno.ErrDatabase, nil, err.Error(), handler.GetLine())
 		return
