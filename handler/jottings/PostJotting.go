@@ -4,8 +4,9 @@ import (
 	"SMZT/handler"
 	"SMZT/log"
 	"SMZT/pkg/errno"
-	"SMZT/service/Jotting"
+	service "SMZT/service/Jotting"
 	"SMZT/util"
+
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 )
@@ -32,7 +33,7 @@ func PostJotting(c *gin.Context) {
 		return
 	}
 
-	if err := Jotting.PostJotting(StudentID, req.Title, req.Content); err != nil {
+	if err := service.PostJotting(StudentID, req.Title, req.Content); err != nil {
 		handler.SendError(c, errno.ErrDatabase, nil, err.Error(), handler.GetLine())
 		return
 	}
